@@ -1,0 +1,41 @@
+{
+  "shapes": [
+    {
+      "id": 1,
+      "name": "Box",
+      "image_url": "bla"
+    },
+    {
+      "id": 2,
+      "name": "Triangle",
+      "image_url": "bla"
+    },
+    {
+      "id": 3,
+      "name": "Semi-circle",
+      "image_url": "bla"
+    },
+    {
+      "id": 4,
+      "name": "Hexagon",
+      "image_url": "bla"
+    }
+  ],
+  "flaps": [
+    {
+      "id": 1,
+      "body": "None",
+      "image_url": "bla"
+    },
+    {
+      "id": 2,
+      "body": "V",
+      "image_url": "bla"
+    },
+    {
+      "id": 3,
+      "body": "Square",
+      "image_url": "bla"
+    }
+  ]
+}
