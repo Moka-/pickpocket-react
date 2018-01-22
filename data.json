@@ -3,21 +3,25 @@
     {
       "id": 1,
       "name": "Box",
+      "description": "These fit anywhere! Great choice if you have no clue what to do",
       "image_url": "bla"
     },
     {
       "id": 2,
       "name": "Triangle",
+      "description": "These fit anywhere! Great choice if you have no clue what to do",
       "image_url": "bla"
     },
     {
       "id": 3,
       "name": "Semi-circle",
+      "description": "These fit anywhere! Great choice if you have no clue what to do",
       "image_url": "bla"
     },
     {
       "id": 4,
       "name": "Hexagon",
+      "description": "These fit anywhere! Great choice if you have no clue what to do",
       "image_url": "bla"
     }
   ],
@@ -36,6 +40,33 @@
       "id": 3,
       "body": "Square",
       "image_url": "bla"
+    }
+  ],
+  "prototypes": [
+    {
+      "id": 1,
+      "structure": {
+        "shape": [1, 2, 3, 4],
+        "flap": [1, 2, 3]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "id" : 1,
+      "user_id": 1,
+      "prototype": 1,
+      "structure" : {
+        "shape": 1,
+        "flap": 1
+      }
+    }
+  ],
+  "purchases": [],
+  "users": [
+    {
+      "id": 1,
+      "email": "bla@gmail.com"
     }
   ]
 }

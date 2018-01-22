@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Grid from 'material-ui/Grid'
-import Paper from 'material-ui/Paper'
+
 import Shape from './Shape'
+import Preview from './preview/preview'
+
+
 
 class Shop extends Component {
   constructor(props) {
@@ -10,6 +13,7 @@ class Shop extends Component {
     this.state = {
       shapes: [],
       pocket: {}
+
     };
 
     this.SetPocketShape = this.SetPocketShape.bind(this);
@@ -25,7 +29,7 @@ class Shop extends Component {
   }
 
   SetPocketShape(shape) {
-    this.setState((state, props) => { return { shapes: state.shapes, pocket: { shape: shape} }})
+    this.setState({ pocket: { shape } });
   }
 
   render() {
@@ -35,12 +39,14 @@ class Shop extends Component {
         {
           this.state.shapes.map((shape) =>
             <Grid key={shape.id} item xs={3}>
-              <Paper>
+              
                 <Shape shape={shape} onClick={this.SetPocketShape} />
-              </Paper>
+              
             </Grid>
           )
         }
+
+        {this.state.pocket ? <Preview pocket={this.state.pocket}/> : null}
       </Grid>
     )
   }
