@@ -5,8 +5,6 @@ import Grid from 'material-ui/Grid'
 import Shape from './Shape'
 import Preview from './preview/preview'
 
-
-
 class Shop extends Component {
   constructor(props) {
     super(props);
@@ -39,9 +37,7 @@ class Shop extends Component {
         {
           this.state.shapes.map((shape) =>
             <Grid key={shape.id} item xs={3}>
-              
                 <Shape shape={shape} onClick={this.SetPocketShape} />
-              
             </Grid>
           )
         }
