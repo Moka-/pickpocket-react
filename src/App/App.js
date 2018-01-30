@@ -1,22 +1,10 @@
-import React, { Component } from 'react'
-import Routes from './Routes'
-import Header from './Header/Header'
-import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
-import { grey, blue, red, purple } from 'material-ui/colors';
+import React, { Component } from 'react';
+import Routes from './routes';
+import Header from './header/header';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Reboot from 'material-ui/Reboot';
-import './App.css'
-
-const theme = createMuiTheme({
-  palette: {
-    contrastThreshold: 3,
-    tonalOffset: 0.2,
-    primary: grey,
-    secondary: blue,
-    error: {
-      main: red[500],
-    },
-  },
-});
+import './App.css';
+import theme from './theme';
 
 class App extends Component {
   render() {

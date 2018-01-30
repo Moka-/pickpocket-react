@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Home from './Home/Home'
-import Shop from './Shop/Shop'
-import About from './About/About'
+import Home from './home/home'
+import Shop from './shop/shop'
+import About from './about/about'
 
 export default class Routes extends Component {
     render() {
