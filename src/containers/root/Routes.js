@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Home from '../home/home'
-import Shop from '../shop/shop'
-import About from '../about/about'
+import Home from '../../containers/home/Home'
+import Shop from '../../containers/shop/Shop'
+import About from '../../containers/about/About'
 
 const Routes = () => (
     <Switch>

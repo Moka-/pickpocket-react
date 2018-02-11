@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
-import Routes from './routes'
-import Header from './header/header'
+import React from 'react'
+import Routes from './Routes'
+import Header from '../../components/header/header'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Reboot from 'material-ui/Reboot'
 import './Root.css'
-import theme from './theme'
+import theme from './Theme'
 import DevTools from './DevTools'
+import { Provider } from 'react-redux'
+import PropTypes from 'prop-types'
 
 const Root = ({ store }) => (
   <Provider store={store}>

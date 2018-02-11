@@ -3,7 +3,7 @@ import axios from 'axios'
 import Grid from 'material-ui/Grid'
 import Shape from './components/shapes/shape'
 import Preview from './components/preview/preview'
-import Selector from  './components/selector/selector'
+import Selector from  './components/selector/selector' 
 
 class Shop extends Component {
   constructor(props) {
