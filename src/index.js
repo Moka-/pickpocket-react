@@ -10,7 +10,7 @@ const store = configureStore()
 
 ReactDOM.render((
     <Router>
-      <Root store={store} />
+      <Root store={store} /> 
     </Router>
   ), document.getElementById('root'));
 
