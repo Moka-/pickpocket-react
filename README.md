@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Moka-/pickpocket-react.svg?branch=master)](https://travis-ci.org/Moka-/pickpocket-react)
+[![Coverage Status](https://coveralls.io/repos/github/Moka-/pickpocket-react/badge.svg?branch=master)](https://coveralls.io/github/Moka-/pickpocket-react?branch=master)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
